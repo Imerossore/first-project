@@ -3,7 +3,6 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
-import Script from "next/script";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -37,39 +36,15 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
-        <div
-          className="fb-customerchat"
-          data-page-id="112689400917569"
-          data-theme-color="#823613"
-          data-logged-in-greeting="Hi! How can we help with your souvenir needs?"
-          data-logged-out-greeting="Hi! Please log in to chat with us."
-        />
-
-        <Script id="facebook-sdk" strategy="lazyOnload">
-          {`
-    !function(f,b,e,v,n,t,s)
-    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-    n.queue=[];t=b.createElement(e);t.async=!0;
-    t.src=v;s=b.getElementsByTagName(e)[0];
-    s.parentNode.insertBefore(t,s)}(window, document,'script',
-    'https://connect.facebook.net/en_US/fbevents.js');
-    
-    var chatbox = document.createElement('script');
-    chatbox.setAttribute('src', 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js');
-    chatbox.setAttribute('nonce', 'nonce');
-    chatbox.setAttribute('crossorigin', 'anonymous');
-    document.head.appendChild(chatbox);
-    
-    window.fbAsyncInit = function() {
-      FB.init({
-        xfbml: true,
-        version: 'v19.0'
-      });
-    };
-  `}
-        </Script>
+        <div className="fixed bottom-4 right-4 z-50">
+          <iframe
+            src="https://www.facebook.com/plugins/customerchat.php?page_id=112689400917569&theme_color=%23823613&logged_in_greeting=Hi%21%20How%20can%20we%20help%20with%20your%20souvenir%20needs%3F&logged_out_greeting=Hi%21%20Please%20log%20in%20to%20chat%20with%20us."
+            width="80"
+            height="80"
+            className="border-0"
+            allow="encrypted-media"
+          />
+        </div>
       </body>
     </html>
   );
