@@ -36,15 +36,6 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
-        <div className="fixed bottom-4 right-4 z-50">
-          <iframe
-            src="https://www.facebook.com/plugins/customerchat.php?page_id=112689400917569&theme_color=%23823613&logged_in_greeting=Hi%21%20How%20can%20we%20help%20with%20your%20souvenir%20needs%3F&logged_out_greeting=Hi%21%20Please%20log%20in%20to%20chat%20with%20us."
-            width="80"
-            height="80"
-            className="border-0"
-            allow="encrypted-media"
-          />
-        </div>
       </body>
     </html>
   );
