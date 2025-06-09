@@ -1,4 +1,5 @@
 import { PRODUCT_CATEGORIES } from "@/lib/constants";
+import Image from "next/image";
 
 export default function ProductCategories() {
   return (
@@ -12,7 +13,7 @@ export default function ProductCategories() {
             <div key={i} className="group cursor-pointer">
               <div className="bg-white/90 rounded-xl p-4 hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                 <div className="aspect-square mb-3 overflow-hidden rounded-lg">
-                  <img
+                  <Image
                     src={category.image}
                     alt={category.name}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"

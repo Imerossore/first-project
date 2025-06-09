@@ -107,7 +107,7 @@ export default function Occasions() {
               🎉 Custom designs available for any occasion!
             </p>
             <p className="text-sm text-zinc-600">
-              Tell us your vision and we'll bring it to life with our
+              Tell us your vision and we&apos;ll bring it to life with our
               personalized touch
             </p>
           </div>

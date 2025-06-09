@@ -1,4 +1,5 @@
 import { ArrowRight, Star } from "lucide-react";
+import Image from "next/image";
 
 export default function Hero() {
   return (
@@ -57,7 +58,7 @@ export default function Hero() {
           </div>
           <div className="relative">
             <div className="aspect-[4/5] relative">
-              <img
+              <Image
                 src="https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=600&q=80"
                 alt="Diday's Corner souvenirs"
                 className="w-full h-full object-cover rounded-3xl shadow-2xl"

@@ -3,6 +3,7 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { Search, Star, ArrowLeft, ShoppingCart, Zap } from "lucide-react";
 import { FEATURED_PRODUCTS } from "@/lib/constants";
+import Image from "next/image";
 
 const categories = ["All", "Keychains", "Mugs", "Cards", "Custom"];
 
@@ -94,7 +95,7 @@ export default function AllProducts() {
                     <span className="font-medium">Featured</span>
                   </div>
                 )}
-                <img
+                <Image
                   src={product.image}
                   alt={product.name}
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"

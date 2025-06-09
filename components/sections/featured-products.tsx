@@ -3,6 +3,7 @@ import { useState } from "react";
 import { Star } from "lucide-react";
 import { FEATURED_PRODUCTS } from "@/lib/constants";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Products() {
   const [activeTab, setActiveTab] = useState("best");
@@ -67,7 +68,7 @@ export default function Products() {
                       New
                     </div>
                   )}
-                  <img
+                  <Image
                     src={product.image}
                     alt={product.name}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"

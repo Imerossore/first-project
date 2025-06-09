@@ -21,8 +21,8 @@ export default function LocationPage() {
             📍 Find Us in Cabanatuan
           </h1>
           <p className="text-xl text-zinc-600 font-light max-w-2xl mx-auto">
-            Located in the heart of Cabanatuan City, we're ready to help you
-            create memorable souvenirs
+            Located in the heart of Cabanatuan City, we&apos;re ready to help
+            you create memorable souvenirs
           </p>
         </div>
 
@@ -46,7 +46,7 @@ export default function LocationPage() {
               <div className="p-6 bg-gradient-to-r from-[#823613] to-amber-800 text-white">
                 <div>
                   <h3 className="text-lg font-semibold mb-1">
-                    Diday's Souvenir Shop
+                    Diday&apos;s Souvenir Shop
                   </h3>
                   <p className="text-amber-100">
                     P1, Brgy. Sto. Niño, Cabanatuan City
@@ -123,8 +123,8 @@ export default function LocationPage() {
                 </span>
               </div>
               <p className="text-sm text-amber-700">
-                "Excellent service and quality products! Highly recommended for
-                custom souvenirs."
+                &qout;Excellent service and quality products! Highly recommended
+                for custom souvenirs. &qout;
               </p>
             </div>
           </div>

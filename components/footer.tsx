@@ -1,5 +1,5 @@
 import { WEBSITE_TITLE } from "@/lib/constants";
-import { Sparkles, Phone, MapPin, Award } from "lucide-react";
+import { Phone, MapPin, Award } from "lucide-react";
 import BrandLogo from "./brand-logo";
 
 export default function Footer() {
@@ -64,8 +64,8 @@ export default function Footer() {
         <div className="border-t border-zinc-800 pt-8">
           <div className="text-center">
             <span className="text-zinc-400 text-sm font-light">
-              © {new Date().getFullYear()} Diday's Succulent Corner and Garden
-              Decor. Certified Business. All rights reserved.
+              © {new Date().getFullYear()} Diday&apos;s Succulent Corner and
+              Garden Decor. Certified Business. All rights reserved.
             </span>
           </div>
         </div>
