@@ -7,13 +7,15 @@ export default function About() {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div className="aspect-[4/3] overflow-hidden rounded-3xl">
             <Image
-              src="https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=600&q=80"
+              src={"/sky-bg.png"}
+              width={300}
+              height={400}
               alt="Diday's crafting process"
               className="w-full h-full object-cover"
             />
           </div>
           <div className="space-y-6">
-            <h2 className="text-4xl font-light text-zinc-900">
+            <h2 className="text-4xl font-light text-zinc-900 ">
               About Diday&apos;s Corner
             </h2>
             <p className="text-lg text-zinc-600 font-light leading-relaxed">

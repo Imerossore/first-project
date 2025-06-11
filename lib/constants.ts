@@ -1,4 +1,4 @@
-export const WEBSITE_TITLE = "Diday's Corner";
+export const WEBSITE_TITLE = "Diday's Souvenir and Invitations";
 
 export const NAV_ITEMS = [
   { href: "/", label: "Home" },
@@ -13,8 +13,7 @@ export const FEATURED_PRODUCTS = [
     price: "₱299",
     category: "Mugs",
     featured: true,
-    image:
-      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=400&q=80",
+    image: "/sky-bg.png",
   },
   {
     name: "Nordic Mug",
@@ -22,8 +21,7 @@ export const FEATURED_PRODUCTS = [
     price: "₱349",
     category: "Mugs",
     featured: true,
-    image:
-      "https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=400&q=80",
+    image: "/sky-bg.png",
   },
   {
     name: "Succulent Collection",
@@ -31,8 +29,7 @@ export const FEATURED_PRODUCTS = [
     price: "₱199",
     category: "Custom",
     featured: false,
-    image:
-      "https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=400&q=80",
+    image: "/sky-bg.png",
   },
   {
     name: "Don Conrado Wine",
@@ -40,8 +37,7 @@ export const FEATURED_PRODUCTS = [
     price: "₱899",
     category: "Custom",
     featured: false,
-    image:
-      "https://images.unsplash.com/photo-1510896778225-8e3b7a4d8982?auto=format&fit=crop&w=400&q=80",
+    image: "/sky-bg.png",
   },
   {
     name: "Acrylic Keychains",
@@ -49,8 +45,7 @@ export const FEATURED_PRODUCTS = [
     price: "₱149",
     category: "Keychains",
     featured: true,
-    image:
-      "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?auto=format&fit=crop&w=400&q=80",
+    image: "/sky-bg.png",
   },
   {
     name: "Wooden Lamp",
@@ -58,8 +53,7 @@ export const FEATURED_PRODUCTS = [
     price: "₱899",
     category: "Custom",
     featured: false,
-    image:
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80",
+    image: "/sky-bg.png",
   },
   {
     name: "Wedding Invitations",
@@ -67,8 +61,7 @@ export const FEATURED_PRODUCTS = [
     price: "₱89",
     category: "Cards",
     featured: true,
-    image:
-      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=400&q=80",
+    image: "/sky-bg.png",
   },
   {
     name: "Birthday Cards",
@@ -76,34 +69,29 @@ export const FEATURED_PRODUCTS = [
     price: "₱49",
     category: "Cards",
     featured: false,
-    image:
-      "https://images.unsplash.com/photo-1464207687429-7505649dae38?auto=format&fit=crop&w=400&q=80",
+    image: "/sky-bg.png",
   },
 ];
 
 export const PRODUCT_CATEGORIES = [
   {
     name: "Personalized Mugs",
-    image:
-      "https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=400&q=80",
+    image: "/sky-bg.png",
     items: ["Sippy Mug Tumbler", "Clear Mug", "Nordic Mug"],
   },
   {
     name: "Wine & Beverages",
-    image:
-      "https://images.unsplash.com/photo-1510896778225-8e3b7a4d8982?auto=format&fit=crop&w=400&q=80",
+    image: "/sky-bg.png",
     items: ["Fruit Wine", "Don Conrado Wine", "Shot Glass"],
   },
   {
     name: "Succulents & Plants",
-    image:
-      "https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=400&q=80",
+    image: "/sky-bg.png",
     items: ["Various Succulents", "Garden Decor", "Plant Care"],
   },
   {
     name: "Magnets & Keychains",
-    image:
-      "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?auto=format&fit=crop&w=400&q=80",
+    image: "/sky-bg.png",
     items: [
       "ATM-Size Ref Magnets",
       "Face & Number Cut Magnet",
@@ -113,8 +101,7 @@ export const PRODUCT_CATEGORIES = [
   },
   {
     name: "Home Decor",
-    image:
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80",
+    image: "/sky-bg.png",
     items: [
       "Wooden Mirrors",
       "Wooden Lamp",
@@ -124,8 +111,7 @@ export const PRODUCT_CATEGORIES = [
   },
   {
     name: "Custom Accessories",
-    image:
-      "https://images.unsplash.com/photo-1578662996442-48f60103fc96?auto=format&fit=crop&w=400&q=80",
+    image: "/sky-bg.png",
     items: [
       "Customized Coin Purse",
       "Candles (Multiple Sizes)",
@@ -134,8 +120,7 @@ export const PRODUCT_CATEGORIES = [
   },
   {
     name: "Invitations & Cards",
-    image:
-      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=400&q=80",
+    image: "/sky-bg.png",
     items: [
       "Custom Invitations",
       "Vow Booklets",

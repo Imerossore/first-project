@@ -1,12 +1,16 @@
-import { Sparkles } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function BrandLogo() {
   return (
     <Link href="/">
-      <div className="w-8 h-8 bg-gradient-to-br from-amber-600 via-orange-600 to-red-700 rounded-full flex items-center justify-center shadow-lg">
-        <Sparkles className="w-4 h-4 text-white" />
-      </div>
+      <Image
+        src={"/brand-logo.jpg"}
+        width={50}
+        height={50}
+        alt="Diday's Corner Logo"
+        className="rounded-full object-cover"
+      />
     </Link>
   );
 }

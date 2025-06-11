@@ -1,10 +1,10 @@
 import {
   Calendar,
-  Heart,
   Baby,
   Gift,
   GraduationCap,
   Building2,
+  Heart,
 } from "lucide-react";
 
 const OCCASIONS = [
@@ -13,7 +13,7 @@ const OCCASIONS = [
     name: "Weddings",
     hashtag: "#wedding",
     description: "Custom invitations, vow booklets & romantic keepsakes",
-    color: "rose",
+    color: "rose-500",
   },
   {
     icon: Gift,
@@ -41,7 +41,7 @@ const OCCASIONS = [
     name: "Corporate Events",
     hashtag: "#corporateevents",
     description: "Branded merchandise & professional giveaways",
-    color: "slate",
+    color: "gray",
   },
   {
     icon: Calendar,
@@ -54,7 +54,7 @@ const OCCASIONS = [
 
 export default function Occasions() {
   return (
-    <section className="py-24 bg-[#fafafa]">
+    <section className="py-24 bg-[#fafafa]   ">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-light text-zinc-900 mb-4">
@@ -68,6 +68,7 @@ export default function Occasions() {
             #didayssucculentcornerandgardendecor
           </div>
         </div>
+        <div className="bg-slate-500"></div>
 
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
           {OCCASIONS.map((occasion, i) => {

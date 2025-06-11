@@ -15,8 +15,11 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-zinc-400 text-sm font-light">
-              Certified business specializing in unique & affordable souvenirs.
-              Custom designs, quality craftsmanship, and personal service.
+              brings your celebrations to life with custom designs, handcrafted
+              quality, and a personal touch you won&apost;t find anywhere else.
+              Whether it&apos;s for birthdays, weddings, or any special
+              event&mdash; we create memorable places that have lasting
+              impressions.
             </p>
           </div>
           <div>

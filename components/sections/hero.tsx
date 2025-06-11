@@ -20,9 +20,8 @@ export default function Hero() {
                 Souvenirs
               </h1>
               <p className="text-xl text-zinc-600 font-light leading-relaxed max-w-lg">
-                ✨ Discover our collection of personalized mugs, wine
-                collections, succulents, and custom accessories. Perfect for all
-                occasions!
+                ✨ Discover our personalized souvernirs and invitations
+                &mdash;crafted with style, made for every celebration!
               </p>
             </div>
 
@@ -59,8 +58,10 @@ export default function Hero() {
           <div className="relative">
             <div className="aspect-[4/5] relative">
               <Image
-                src="https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=600&q=80"
+                src={"/sky-bg.png"}
                 alt="Diday's Corner souvenirs"
+                width={600}
+                height={400}
                 className="w-full h-full object-cover rounded-3xl shadow-2xl"
               />
               <div className="absolute -bottom-6 -left-6 bg-white/90 backdrop-blur-sm rounded-2xl p-6 shadow-xl">
